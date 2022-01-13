@@ -95,9 +95,5 @@ Read the following discussions for the source and deeper details on this approac
 | [dnb-hugo-workflows](https://github.com/dnb-org/dnb-hugo-workflows) | A collection of Github Actions/Workflows to optimise your work with GoHugo. |
 | [dnb-hugo-youtube](https://github.com/dnb-org/dnb-hugo-youtube) | A shortcode and partial for lite youtube embeds. |
 
-
-
-
-
 <!--lint disable no-missing-blank-lines -->
 <!--- COMPONENTS END --->
