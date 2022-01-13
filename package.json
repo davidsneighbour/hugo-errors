@@ -11,10 +11,13 @@
   "homepage": "https://github.com/dnb-org/dnb-hugo-errors",
   "repository": "dnb-org/dnb-hugo-errors",
   "bugs": "https://github.com/dnb-org/dnb-hugo-errors/issues",
+  "dependencies": {
+    "mem": "^9.0.1",
+    "trim": "^1.0.1"
+  },
   "devDependencies": {
-    "@dnb-org/remark-config": "^3.4.2",
-    "@dnb-org/standard-version-config": "^3.4.1",
-    "@dnb-org/tools": "^3.4.1"
+    "@dnb-org/standard-version-config": "^3.4.7",
+    "@dnb-org/tools": "^3.4.9"
   },
   "scripts": {
     "clean": "run-p clean:*",
@@ -24,14 +27,5 @@
     "release:minor": "standard-version --release-as minor -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh"
   },
   "private": true,
-  "remarkConfig": {
-    "plugins": [
-      "@dnb-org/remark-config"
-    ]
-  },
-  "slug": "dnb-hugo-errors",
-  "dependencies": {
-    "mem": "^9.0.1",
-    "trim": "^1.0.1"
-  }
+  "slug": "dnb-hugo-errors"
 }
