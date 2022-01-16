@@ -9,8 +9,8 @@ source = "layouts"
 target = "layouts"
 
 [[module.mounts]]
-source = "content/errors"
-target = "content/errors"
+source = "content"
+target = "content"
 
 [[module.mounts]]
 source = "data"
