@@ -12,7 +12,7 @@
   "repository": "dnb-org/dnb-hugo-errors",
   "bugs": "https://github.com/dnb-org/dnb-hugo-errors/issues",
   "dependencies": {
-    "mem": "^9.0.1",
+    "mem": "^9.0.2",
     "trim": "^1.0.1"
   },
   "devDependencies": {
