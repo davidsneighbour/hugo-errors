@@ -1,5 +1,5 @@
 {
-  "name": "dnb-hugo-errors",
+  "name": "@davidsneighbour/hugo-errors",
   "version": "0.0.3",
   "license": "MIT",
   "description": "Error templates for GoHugo",
@@ -8,16 +8,16 @@
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "homepage": "https://github.com/dnb-org/dnb-hugo-errors",
-  "repository": "dnb-org/dnb-hugo-errors",
-  "bugs": "https://github.com/dnb-org/dnb-hugo-errors/issues",
+  "homepage": "https://github.com/davidsneighbour/hugo-errors",
+  "repository": "davidsneighbour/hugo-errors",
+  "bugs": "https://github.com/davidsneighbour/hugo-errors/issues",
   "dependencies": {
     "mem": "^9.0.2",
     "trim": "^1.0.1"
   },
   "devDependencies": {
-    "@dnb-org/standard-version-config": "^3.5.9",
-    "@dnb-org/tools": "^3.5.9"
+    "@davidsneighbour/standard-version-config": "^4.0.1",
+    "@davidsneighbour/tools": "^4.0.1"
   },
   "scripts": {
     "clean": "run-p clean:*",
@@ -27,5 +27,5 @@
     "release:minor": "standard-version --release-as minor -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease"
   },
   "private": true,
-  "slug": "dnb-hugo-errors"
+  "slug": "hugo-errors"
 }
